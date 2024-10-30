@@ -44,6 +44,7 @@ public fun hello_world(): String {
 }
 ```
 使用sui move build 编译代码。
+
 ![alt text](img/image-6.png)
 
 显示如上内容没有报错代表编译成功，编译过程中Move Compiler 会自动创建一个构建文件夹，其中放置所有获取和编译的依赖项以及当前包模块的字节码。
